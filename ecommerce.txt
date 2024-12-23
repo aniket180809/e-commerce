@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple eCommerce Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">eShop</div>
+        <div class="cart">
+            <a href="cart.html">Cart (0)</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="products">
+            <div class="product-card">
+                <img src="product1.jpg" alt="Product 1">
+                <h3>Product 1</h3>
+                <p>$10.00</p>
+                <button class="add-to-cart" data-product-id="1">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="product2.jpg" alt="Product 2">
+                <h3>Product 2</h3>
+                <p>$15.00</p>
+                <button class="add-to-cart" data-product-id="2">Add to Cart</button>
+            </div>
+            <!-- More products here -->
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
